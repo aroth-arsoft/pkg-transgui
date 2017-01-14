@@ -1,3 +1,10 @@
+transgui (5.5.1+dfsg-0.1~aroth1) yakkety; urgency=medium
+
+  * use version 5.5.1 of transgui from
+    https://github.com/leonsoft-kras/transmisson-remote-gui
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Sat, 14 Jan 2017 09:50:13 +0100
+
 transgui (5.0.1-4) unstable; urgency=medium
 
   * Remove error message when opening containing folder (Closes: #811289)

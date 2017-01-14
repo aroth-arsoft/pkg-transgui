@@ -1,2 +1,0 @@
-?package(transgui):needs="X11" section="Applications/Network/File Transfer"\
-  title="transgui" command="/usr/bin/transgui"

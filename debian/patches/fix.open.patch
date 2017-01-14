@@ -9,11 +9,9 @@ Forwarded: Email to upstream maintainer
 Last-Update: 2016-03-19
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
-Index: transmission-remote-gui/utils.pas
-===================================================================
---- transmission-remote-gui.orig/utils.pas
-+++ transmission-remote-gui/utils.pas
-@@ -450,7 +450,7 @@ begin
+--- a/utils.pas
++++ b/utils.pas
+@@ -450,7 +456,7 @@
  {$else darwin}
  
    {$ifdef unix}

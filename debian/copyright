@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Transmission remote GUI
 Upstream-Contact: Yury Sidorov <jura@cp-lab.com>
-Source: http://code.google.com/p/transmisson-remote-gui/
+Source: https://github.com/leonsoft-kras/transmisson-remote-gui
 
 Files: *
 Copyright: 2008-2014, Yury Sidorov <jura@cp-lab.com>

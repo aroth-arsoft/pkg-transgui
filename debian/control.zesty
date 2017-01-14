@@ -23,7 +23,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/transmission-remot
 
 Package: transgui
 Architecture: any
-Depends: libssl1.0.0, ${misc:Depends}, ${shlibs:Depends}
+Depends: libssl1.0.2, ${misc:Depends}, ${shlibs:Depends}
 Description: Front-end to remotely control Transmission
  This package contains Transmission Remote GUI, which is a feature rich,
  cross platform, front-end to remotely control Transmission daemon via its

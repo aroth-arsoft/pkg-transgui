@@ -1,2 +1,3 @@
 version=3
-http://sf.net/transgui/transgui-(\d\S*).src.zip
+opts=dversionmangle=s/\.dfsg// \
+https://github.com/leonsoft-kras/transmisson-remote-gui/archive/v(\d\.\d\.\d).tar.gz

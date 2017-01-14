@@ -24,5 +24,11 @@ override_dh_auto_test:
 
 override_dh_auto_install:
 
+override_dh_clean:
+	dh_clean
+	-rm *.lrs
+	-rm *.xpm
+	-rm Makefile
+
 %:
 	dh $@

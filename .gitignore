@@ -22,3 +22,9 @@
 /transgui.png
 /transgui.res
 /trcomp.lpk
+/VERSION2.txt
+/flags.zip
+*.lrs
+*.xpm
+/fpcmade.x86_64-linux
+/transgui

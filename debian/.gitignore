@@ -1,0 +1,5 @@
+/transgui/
+/debhelper-build-stamp
+/files
+*.debhelper.log
+*.substvars

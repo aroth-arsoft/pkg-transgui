@@ -1,0 +1,11 @@
+--- a/transgui.lpr
++++ b/transgui.lpr
+@@ -39,8 +39,6 @@
+   { you can add units after this }, BaseForm, Main, rpc, AddTorrent, ConnOptions, varlist,
+   TorrProps, DaemonOptions, About, IpResolver, download, ColSetup, utils, ResTranslator, AddLink, MoveTorrent, AddTracker, Options;
+ 
+-{$R *.res}
+-
+ begin
+   if not CheckAppParams then exit;
+ 
