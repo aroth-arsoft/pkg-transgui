@@ -1,0 +1,4 @@
+# This package is compiled by the FPC and Lazarus. These compilers don't have
+# hardening flags yet, so ignoring these lintian warnings for now
+transgui binary: hardening-no-relro */transgui
+

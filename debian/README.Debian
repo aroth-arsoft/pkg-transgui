@@ -1,0 +1,7 @@
+transgui for Debian
+-------------------
+
+Patched restranslator.pas to look for the lang files in
+/usr/share/transgui/lang. Thanks to Kan-Ru Chen for the patch.
+
+ -- Andreas Noteng <andreas@noteng.no>  Wed, 13 Oct 2010 05:33:26 +0200

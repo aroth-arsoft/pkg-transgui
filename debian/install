@@ -1,0 +1,4 @@
+debian/transgui.desktop usr/share/applications
+lang/* usr/share/transgui/lang
+transgui usr/bin
+transgui-2.xpm usr/share/pixmaps

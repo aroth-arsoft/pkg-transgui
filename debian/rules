@@ -1,0 +1,28 @@
+#!/usr/bin/make -f
+
+DEB_BUILD_OPTIONS=nocheck
+# Define FPC
+ifndef FPC
+FPC=/usr/bin/fpc
+endif
+
+FPCVER=$(shell ${FPC} -iV)
+
+# Define FPCDIR if it was not set
+ifndef FPCDIR
+export FPCDIR=/usr/lib/fpc/${FPCVER}
+endif
+
+override_dh_auto_configure:
+	fpcmake
+
+override_dh_auto_build:
+	convert transgui.ico transgui.xpm
+	dh_auto_build
+
+override_dh_auto_test:
+
+override_dh_auto_install:
+
+%:
+	dh $@

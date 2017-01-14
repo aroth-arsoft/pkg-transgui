@@ -1,0 +1,24 @@
+Description: Fix unable to execute error message when opening containing folder
+ When choose "Open" or "Open containing folder" on torrent, transgui execute
+ command and show error with message "Unable to execute ...".  It happens
+ because of FPC change exit code from 0 to -1 for processes that is not yet
+ running.
+Author: Anton Bobov <abobov@gmail.com>
+Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=811289
+Forwarded: Email to upstream maintainer
+Last-Update: 2016-03-19
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: transmission-remote-gui/utils.pas
+===================================================================
+--- transmission-remote-gui.orig/utils.pas
++++ transmission-remote-gui/utils.pas
+@@ -450,7 +450,7 @@ begin
+ {$else darwin}
+ 
+   {$ifdef unix}
+-    Result:=UnixOpenURL(URL) = 0;
++    Result:=UnixOpenURL(URL) = -1;
+   {$endif unix}
+ 
+ {$endif darwin}

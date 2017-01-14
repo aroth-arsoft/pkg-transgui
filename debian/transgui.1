@@ -1,0 +1,30 @@
+.TH TRANSGUI "1" "13 October 2010"
+
+.SH NAME
+transgui \- GUI program to remotely control the Transmission daemon
+
+.SH SYNOPSIS
+\fBtransgui\fR <\fBfilename\fR>
+
+.SH DESCRIPTION
+\fBtransgui\fR connects to a remote or local Transmission daemon, and lets you
+add, remove, monitor and do most other torrent actions from a nice friendly GUI.
+
+.SH OPTIONS
+Optionally a the path or URI to a torrent file can be specified to be added as a new torrent.
+
+.SH EXAMPLE
+.TP
+transgui http://example.com/torrents/filename.torrent
+Adds a new torrent from URI
+.TP
+transgui /home/user/downloads/filename.torrent
+Adds a new torrent from file.
+
+.SH SEE ALSO
+\fBtransmission-daemon\fR
+
+.SH AUTHOR
+\fBTransmission Remote GUI\fR was written by Yury Sidorov, and this manual page by Andreas Noteng <andreas@noteng.no>.
+
+Both are released under the GNU General Public License, version 2 or later.

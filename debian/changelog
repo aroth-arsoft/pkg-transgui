@@ -1,0 +1,105 @@
+transgui (5.0.1-4) unstable; urgency=medium
+
+  * Remove error message when opening containing folder (Closes: #811289)
+    - Patch: fix.open.patch 
+
+ -- Andreas Noteng <andreas@noteng.no>  Fri, 25 Mar 2016 19:23:57 +0100
+
+transgui (5.0.1-3) unstable; urgency=medium
+
+  * Change libssl dependency from v1.0.0 to v1.0.2 (Closes: #805125)
+
+  [Edmund Grimley Evans]
+  * Regenerate makefile before build (Closes: #803986)
+
+ -- Andreas Noteng <andreas@noteng.no>  Sun, 15 Nov 2015 11:15:14 +0100
+
+transgui (5.0.1-2) unstable; urgency=medium
+
+  * Add missing build dependencies (Closes: #791407)
+  * Update and fix minor errors in d/copyright
+  * Bump Standards-Version to 3.9.6 (no change)
+  * Add lintian override for hardening-no-relro
+
+ -- Andreas Noteng <andreas@noteng.no>  Tue, 07 Jul 2015 14:30:04 +0200
+
+transgui (5.0.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Remove deprecated Dm-Upload-Allowed field from debian/control
+  * Update VCS-* fields to canonical URIs
+
+ -- Andreas Noteng <andreas@noteng.no>  Thu, 10 Apr 2014 16:47:33 +0200
+
+transgui (5.0-1) unstable; urgency=low
+
+  * Add missing semicolon to MimeType line of transgui.desktop (Closes: #706420)
+  * New upstream release
+  * Bump Standards-Version to version 3.9.5 (no change)
+  * Refresh Copyright file
+
+ -- Andreas Noteng <andreas@noteng.no>  Tue, 30 Apr 2013 23:13:47 +0200
+
+transgui (4.0.3-2) unstable; urgency=low
+
+  * Set DM-Upload-Allowed: yes
+  * Allow transgui to be selected as default handler of .torrent's
+    (lp: #1007962)
+
+ -- Andreas Noteng <andreas@noteng.no>  Sun, 03 Jun 2012 22:00:04 +0200
+
+transgui (4.0.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Remove history.txt from debian/docs as it is installed automatically by
+    dh_installchangelogs.
+
+ -- Andreas Noteng <andreas@noteng.no>  Fri, 11 May 2012 07:17:22 +0200
+
+transgui (4.0.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Noteng <andreas@noteng.no>  Wed, 11 Apr 2012 09:10:44 +0200
+
+transgui (4.0-1) unstable; urgency=low
+
+  * New upstream version
+  * Make transgui handle magnet links
+  * Bump Standards-Version to 3.9.3
+    - Update machine readable debian/copyright to version 1
+  [Mònica Ramírez Arceda]
+  * Remove the -WG flag as it's not needed. (Closes: #663552)
+  * Remove the first article from synopsis.
+
+ -- Andreas Noteng <andreas@noteng.no>  Sat, 07 Apr 2012 18:54:57 +0200
+
+transgui (3.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Replace fpc-2.4.2 and fp-utils-2.4.2 build deps with fpc and fp-utils
+  * Replace libssl0.9.8 dep with libssl1.0.0 (Closes: #632532)
+
+ -- Andreas Noteng <andreas@noteng.no>  Tue, 01 Nov 2011 18:11:44 +0100
+
+transgui (3.1+svn607-1) unstable; urgency=low
+
+  * New upstream version
+  * Update with upstream svn revision 607 to correctly build with
+    fpc-2.4.2 and lazarus-0.9.30 (Closes: #620713)
+  * Bump Standards-Version to 3.9.2 (no change)
+
+ -- Andreas Noteng <andreas@noteng.no>  Sat, 30 Apr 2011 19:43:19 +0200
+
+transgui (3.0.1-1) unstable; urgency=low
+
+  * Correctly load OpenSSL libraries (Closes: #609501)
+  * Update debian/rules to build with upstream makefile
+
+ -- Andreas Noteng <andreas@noteng.no>  Mon, 28 Feb 2011 23:22:14 +0100
+
+transgui (2.2-1) unstable; urgency=low
+
+  * initial release (Closes: #586507)
+
+ -- Andreas Noteng <andreas@noteng.no>  Thu, 16 Dec 2010 18:13:26 +0100
