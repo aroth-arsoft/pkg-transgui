@@ -1,3 +1,9 @@
+transgui (5.6.0+dfsg-0.1~aroth1) yakkety; urgency=medium
+
+  * new upstream version 5.6.0
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Sat, 22 Apr 2017 10:22:21 +0200
+
 transgui (5.5.1+dfsg-0.1~aroth1) yakkety; urgency=medium
 
   * use version 5.5.1 of transgui from
